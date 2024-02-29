@@ -5,4 +5,5 @@ acc = int (input("What is your account-id?: "))
 res = int (input("What is your resource-id?: "))
 print ("           ")
 
-print(f' ARN format -->  arn:{part}:{serv}:{serv}:{acc}:{res}')            #print(f'{str} {int}')
+print(f' ARN format -->  arn:{part}:{serv}:{serv}:{acc}:{res}')
+

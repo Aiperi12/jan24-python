@@ -1,0 +1,14 @@
+Python:
+
+-Automation of processes/tasks
+-Write script
+-Give logic
+-Write a pseudocod
+
+##Python is interpretted
+
+Interpretation ---> Bash ---> Linux
+
+- interpretet source code time you run programms --->
+
+Python is high-level (ease to understand for humans and computers), interpreted programming language
