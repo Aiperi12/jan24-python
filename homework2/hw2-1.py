@@ -17,7 +17,7 @@ elif not re.search("[A-Z]", password):
     print("The password must contain at least 1 upppercase letter")    
 elif not re.search("[0-9]", password):
     print("The password must contain at least 1 digit")    
-elif not re.search("[~!@#$%^&*]", password):
+elif not re.search("[~!@#$%^&*]", password): 
     print("The password must contain at least 1 special character")
 else:
     print ("Password accepted")  
