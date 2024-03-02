@@ -8,18 +8,18 @@ print ("           ")
 
 while True:
 password = input ("Create a password: ")
-if len (password) < 8:
+  if len (password) < 8:
     print ("The password must be at least 8 characters")
-elif not re.search("[a-z]", password):
+  elif not re.search("[a-z]", password):
     print("The password must contain at least 1 lowercase letter")
-elif not re.search("[A-Z]", password):
+  elif not re.search("[A-Z]", password):
     print("The password must contain at least 1 upppercase letter")    
-elif not re.search("[0-9]", password):
+  elif not re.search("[0-9]", password):
     print("The password must contain at least 1 digit")    
-elif not re.search("[~!@#$%^&*]", password): 
+  elif not re.search("[~!@#$%^&*]", password): 
     print("The password must contain at least 1 special character")
-else:
+  else:
     print ("Password accepted")  
-break  
+  break  
     
 
