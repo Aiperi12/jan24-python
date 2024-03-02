@@ -84,3 +84,9 @@ while var != 10:
     var = var + 1
 print ("This is the end ", var)    
 print("        \n -------------")
+
+
+x=0
+while x < 10:
+    x = x + 1
+    print(x)
