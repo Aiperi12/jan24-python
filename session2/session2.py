@@ -58,8 +58,8 @@ print("        \n -------------")
 
 
 
-for letter in "Hello":
-    print(letter)    
+for num in "Hello":
+    print(num)    
 print("        \n -------------")
 
 
